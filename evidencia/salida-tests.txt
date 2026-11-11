@@ -1,0 +1,19 @@
+
+> prograweb-tarea2@1.0.0 test
+> vitest run tests/src/utils/password.test.ts tests/src/utils/generateCode.test.ts --reporter=verbose
+
+
+ RUN  v5.1.0 /home/adminh/PrograWeb/PrograWebTarea2
+
+ ✓ tests/src/utils/generateCode.test.ts > generateSixDigitCode > genera una cadena de exactamente 6 dígitos 6ms
+ ✓ tests/src/utils/generateCode.test.ts > generateSixDigitCode > genera un número entero positivo entre 100000 y 999999 1ms
+ ✓ tests/src/utils/generateCode.test.ts > generateSixDigitCode > genera códigos distintos en llamadas consecutivas 1ms
+ ✓ tests/src/utils/password.test.ts > password utils > genera hashes no vacíos y distintos de su contraseña original 5ms
+ ✓ tests/src/utils/password.test.ts > password utils > devuelve true al comparar con la contraseña correcta 751ms
+ ✓ tests/src/utils/password.test.ts > password utils > devuelve false al comparar con la contraseña incorrecta 768ms
+
+ Test Files  2 passed (2)
+      Tests  6 passed (6)
+   Start at  08:52:55
+   Duration  2.54s (tests 96%, import 2%, transform 1%, worker 1%)
+
